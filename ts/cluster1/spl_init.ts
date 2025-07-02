@@ -19,7 +19,7 @@ const connection = new Connection("https://api.devnet.solana.com", commitment);
       keypair.publicKey,
       6
     );
-    console.log("Mint Address:- ", mint.toBase58());
+    console.log("Mint Address:- ", mint.toBase58()); // FunqQXZvXfA1KoNFjaazzaKu9bz8W4h38sYkLNEZEfUR
   } catch (error) {
     console.log(`Oops, something went wrong: ${error}`);
   }
